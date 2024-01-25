@@ -1,1 +1,174 @@
-{}
+{
+    "movies" : [
+        {
+          "id": "1",
+          "title": "The Shawshank Redemption",
+          "release_year": 1994,
+          "genre": ["Drama"],
+          "director": {
+            "name": "Frank Darabont",
+            "birth_year": 1959
+          },
+          "actors": ["Tim Robbins", "Morgan Freeman"],
+          "ratings": {
+            "critics": 93,
+            "audience": 94
+          },
+          "plot_summary": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+          "is_blockbuster": false
+        },
+        {
+          "id": "2",
+          "title": "The Godfather",
+          "release_year": 1972,
+          "genre": ["Crime", "Drama"],
+          "director": {
+            "name": "Francis Ford Coppola",
+            "birth_year": 1939
+          },
+          "actors": ["Marlon Brando", "Al Pacino"],
+          "ratings": {
+            "critics": 98,
+            "audience": 97
+          },
+          "plot_summary": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+          "is_blockbuster": true
+        },
+        {
+            "id": "3",
+            "title": "Inception",
+            "release_year": 2010,
+            "genre": ["Sci-Fi", "Action", "Thriller"],
+            "director": {
+              "name": "Christopher Nolan",
+              "birth_year": 1970
+            },
+            "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+            "ratings": {
+              "critics": 92,
+              "audience": 89
+            },
+            "plot_summary": "A thief who enters the dreams of others to steal their secrets.",
+            "is_blockbuster": true
+          },
+          {
+            "id": "4",
+            "title": "Pulp Fiction",
+            "release_year": 1994,
+            "genre": ["Crime", "Drama"],
+            "director": {
+              "name": "Quentin Tarantino",
+              "birth_year": 1963
+            },
+            "actors": ["John Travolta", "Samuel L. Jackson", "Uma Thurman"],
+            "ratings": {
+              "critics": 94,
+              "audience": 92
+            },
+            "plot_summary": "Various interconnected stories of crime in Los Angeles.",
+            "is_blockbuster": false
+          },
+          {
+            "id": "5",
+            "title": "The Dark Knight",
+            "release_year": 2008,
+            "genre": ["Action", "Crime", "Drama"],
+            "director": {
+              "name": "Christopher Nolan",
+              "birth_year": 1970
+            },
+            "actors": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+            "ratings": {
+              "critics": 94,
+              "audience": 94
+            },
+            "plot_summary": "Batman faces the Joker's chaos and anarchy.",
+            "is_blockbuster": true
+          },
+          {
+            "id": "6",
+            "title": "Forrest Gump",
+            "release_year": 1994,
+            "genre": ["Drama", "Romance"],
+            "director": {
+              "name": "Robert Zemeckis",
+              "birth_year": 1951
+            },
+            "actors": ["Tom Hanks", "Robin Wright", "Gary Sinise"],
+            "ratings": {
+              "critics": 71,
+              "audience": 95
+            },
+            "plot_summary": "A man with a low IQ witnesses historical events.",
+            "is_blockbuster": true
+          },
+          {
+            "id": "7",
+            "title": "The Matrix",
+            "release_year": 1999,
+            "genre": ["Action", "Sci-Fi"],
+            "director": {
+              "name": "The Wachowskis",
+              "birth_year": 1965
+            },
+            "actors": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
+            "ratings": {
+              "critics": 88,
+              "audience": 85
+            },
+            "plot_summary": "A computer hacker learns about the true nature of his reality.",
+            "is_blockbuster": true
+          },
+          {
+            "id": "8",
+            "title": "Titanic",
+            "release_year": 1997,
+            "genre": ["Drama", "Romance"],
+            "director": {
+              "name": "James Cameron",
+              "birth_year": 1954
+            },
+            "actors": ["Leonardo DiCaprio", "Kate Winslet", "Billy Zane"],
+            "ratings": {
+              "critics": 89,
+              "audience": 88
+            },
+            "plot_summary": "A love story that blossoms on the ill-fated maiden voyage of the R.M.S. Titanic.",
+            "is_blockbuster": true
+          },
+          {
+            "id": "9",
+            "title": "Avatar",
+            "release_year": 2009,
+            "genre": ["Action", "Adventure", "Fantasy"],
+            "director": {
+              "name": "James Cameron",
+              "birth_year": 1954
+            },
+            "actors": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"],
+            "ratings": {
+              "critics": 82,
+              "audience": 82
+            },
+            "plot_summary": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following orders and protecting an alien civilization.",
+            "is_blockbuster": true
+          },
+          {
+            "id": "10",
+            "title": "The Silence of the Lambs",
+            "release_year": 1991,
+            "genre": ["Crime", "Drama", "Thriller"],
+            "director": {
+              "name": "Jonathan Demme",
+              "birth_year": 1944
+            },
+            "actors": ["Jodie Foster", "Anthony Hopkins", "Scott Glenn"],
+            "ratings": {
+              "critics": 96,
+              "audience": 95
+            },
+            "plot_summary": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
+            "is_blockbuster": false
+          }
+      ]
+}
